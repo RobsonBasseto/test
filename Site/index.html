@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport"
+                  content="width=device-width,
+                           initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" type ="text/css" href="fontawesome/css/all.css"/>
+            <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+            <link rel="stylesheet" type="text/css" href="style.css" />
+            <script src="jquery-3.6.0.min.js"></script>
+            <script src="bootstrap.bundle.min.js"></script>
+            <script src="app.js"></script>
+    </head>
+
+    <body>
+        
+        <h5 id ="TxtNomePosto">NOME POSTO</h5>
+
+        <div id="container-tela-posto" class="container">
+            <div class=" form-group">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+            <div class="col-md-5">
+                <label>Id:</label>
+                <input type="text" id="ovTxtId" class="form-control" />
+
+            <div class="col-md-5">
+                <label>Produto:</label>
+                <input type="text" id="ovTxtProduto" class="form-control" />
+
+                <div class="col-md-5">
+                    <label>Preco:</label>
+                    <input type="text" id="ovTxtPreco" class="form-control" />
+                </div>
+                
+                <div class="form-group"> <!--Botões da tela filial-->
+                    <button type="button"
+                            id="ovBTN_Salvar"
+                            class="btn btn-primary"><i class = "fa fa-save"></i> Salvar</button>
+
+            </div>
+                </div>
+                     </div>  
+                         </div>  
+                             </div>
+                    
+
+            <div class="form-group">
+				<div class="row">
+					<div class="col-md-12">
+						<table id="TrProdutos" class="table table-striped table-dark"> <!--Tabela de empresa-->
+							<thead>
+								<th>Produto</th>
+								<th class ="tabeladesc">Preço</th>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+        </div>
+
+    </body>
+</html>
